@@ -265,5 +265,18 @@ var ParticlePool = (function () {
   }, 10);
 })(document.getElementById("pinkboard"));
 
+let is_playing = false;
+
+document.getElementById("pinkboard").addEventListener("click", () => {
+  const vid = document.getElementById("myMusic");
+  if (!is_playing) {
+    vid.play();
+    is_playing = true;
+  } else {
+    vid.pause();
+    is_playing = false;
+  }
+});
+
 const vid = document.getElementById("myMusic");
 vid.volume = 0.5;

@@ -31,6 +31,7 @@ canvas {
     height: 70vw;
     width: 70vw;
     animation: animate 2s infinite;
+    cursor: pointer;
 }
 
 #pinkboard:before,
