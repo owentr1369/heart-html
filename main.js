@@ -264,3 +264,6 @@ var ParticlePool = (function () {
     render();
   }, 10);
 })(document.getElementById("pinkboard"));
+
+const vid = document.getElementById("myMusic");
+vid.volume = 0.5;
