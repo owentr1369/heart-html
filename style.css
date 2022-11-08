@@ -28,8 +28,8 @@ canvas {
 #pinkboard {
     position: relative;
     margin: auto;
-    height: 70vw;
-    width: 70vw;
+    height: 80vw;
+    width: 80vw;
     animation: animate 2s infinite;
     cursor: pointer;
 }
